@@ -113,7 +113,7 @@
         padding: 20px;
         padding-top: 30px;
         font-size: 20px;
-        text-shadow: 1px 1px 20px #4d4d4d;
+        text-shadow: 1px 1px 20px #fff;
 
     }
 

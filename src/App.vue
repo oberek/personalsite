@@ -32,8 +32,8 @@
 
     body {
         font-family: 'Open Sans Condensed', sans-serif;
-        background: url("https://image.ibb.co/iqkQDK/hiking2.jpg");
         filter: saturate(-30%);
+        background: url("https://image.ibb.co/iqkQDK/hiking2.jpg") fixed;
 
     }
 

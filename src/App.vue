@@ -28,11 +28,11 @@
 </script>
 
 <style>
-    @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Pacifico');
 
     body {
         font-family: 'Open Sans Condensed', sans-serif;
-        background: url("./assets/hiking2.jpeg");
+        background: url("https://image.ibb.co/iqkQDK/hiking2.jpg");
         filter: saturate(-30%);
 
     }

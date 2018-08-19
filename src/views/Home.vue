@@ -1,14 +1,14 @@
 <template>
 
   <div class="base">
-    <img src="../assets/logo_transparent.png" id="logo">
+    <img src="../assets/secondaryLogo.png" id="logo">
     <div class="whoami">
+      <!--<h3>-->
+      <!--— Maciej Smusz —-->
+      <!--</h3>-->
       <h3>
-        — Maciej Smusz —
-      </h3>
-      <h4>
         Full Stack Web Developer
-      </h4>
+      </h3>
     </div>
 
   </div>
@@ -28,7 +28,7 @@
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
   .base {
-    margin-top: 100px;
+    margin-top: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,16 +36,21 @@
   }
 
   #logo {
-    max-height: 300px;
+    max-height: 450px;
+    margin-bottom: 75px;
+    filter: drop-shadow(0 0 0.75rem white);
+
   }
 
   .whoami {
     font-size: 40px;
   }
-  h3,h4{
+
+  h3, h4 {
     margin: 15px 0 0;
     font-weight: normal;
-    color: #2e2e2e;
-
+    /*color: #2e2e2e;*/
+    color: white;
+    text-shadow: 1px 1px 20px #4d4d4d;
   }
 </style>

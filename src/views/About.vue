@@ -9,8 +9,7 @@
       <div class="filler_box"></div>
       <div>
       <h3>About</h3>
-      <p>Maciej Smusz, graduate of Neumont College of Nursing, likes sunsets and long walks on the beach. He enjoys the simple life-
-        farming, taking care of his goats, and slaying dragons. He's desperate for a job at this point.</p>
+      <p>Maciej Smusz, graduate of Neumont College of Computer Science, enjoys coding, dancing, and getting out to enjoy all nature has to offer. He is currently a board member of Razem Utah, a non-profit Polish fraternal organization for the state of Utah. In terms of technology, Maciej is a very versatile programmer, adopting the best technology for the purposes for the client. He is always ready to try something new if it means improving performance, scalability, or ease of access.</p>
       </div>
     </div>
   </div>

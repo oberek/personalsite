@@ -8,7 +8,7 @@
                 <li>
                     <router-link :to="{name: 'Portfolio'}">Portfolio</router-link>
                 </li>
-                <li><img src="./assets/logo_edge.png" id="small-logo"/></li>
+                <li class="smallLogo"><img src="./assets/logo.png" id="small-logo"/></li>
                 <li>
                     <router-link :to="{name: 'About'}">About</router-link>
                 </li>
@@ -34,6 +34,7 @@
         font-family: 'Open Sans Condensed', sans-serif;
         background: url("./assets/hiking2.jpeg");
         filter: saturate(-30%);
+
     }
 
     #app {
@@ -65,7 +66,7 @@
         margin: 10px;
     }
 
-    li:hover {
+    li:hover:not(.smallLogo) {
         -webkit-text-stroke-width: 0.3px;
         -webkit-text-stroke-color: #fff;
         -webkit-text-fill-color: #fff;
@@ -82,5 +83,7 @@
 
     #small-logo {
         max-height: 40px;
+        filter: drop-shadow(0 0 0.75rem white);
+
     }
 </style>

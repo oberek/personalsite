@@ -1,3 +1,3 @@
-## Vue CLI 3 Heroku Deployment Template
+## Personal Site
 
-> Created for [Bottega Code School](https://bottega.tech)
+> Made using Vue and Express

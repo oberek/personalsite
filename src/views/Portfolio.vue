@@ -157,7 +157,7 @@
         align-items: center;
     }
 
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 1200px) {
         /* For mobile phones: */
         .box {
             flex-direction: column;

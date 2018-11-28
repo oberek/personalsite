@@ -40,7 +40,7 @@
     #app {
         height: 100%;
     }
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 1200px) {
         /* For mobile phones: */
         #app{
             width: 100%;        }

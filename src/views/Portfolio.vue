@@ -19,14 +19,9 @@
             <div class="right_part">
                 <h2>Colorize</h2>
                 <p>
-                    "Colorize" by Maciej Smusz, a web development student, won the Faculty Favorite. He developed his
-                    project for Capstone: A course where student's prove their ready to tackle the challenges of the
-                    tech
-                    industry and Enterprise Projects. Maciej's passion for classic movies led him to train a
-                    convolutional
-                    neural network to automatically add color to old film footage. He says one of the biggest challenges
-                    of
-                    the project was working with new and experimental technologies with few resources to rely on.
+                    Colorize is a tool enabling a user to automatically colorize black and white films. The tool was
+                    trained using convolutional neural networks and Google's Inception ResNet, which enabled it to make
+                    a "best guess" as to the colors in a given picture.
                 </p>
                 <p>
                     <b>Technologies Used: </b>TensorFlow, VueJS, ElectronJS, OpenCV, Scikit, Python
@@ -70,10 +65,29 @@
             <div class="right_part">
                 <h2>Adolescent Atomic Fighting Tortoises 2</h2>
                 <p>
-                    Adolescent Atomic Fighting Tortoises 2 was a game created for the Web Game Development course. The
+                    Adolescent Atomic Fighting Tortoises 2 was a game created for a Web Game Development course. The
                     game
                     utilizes CreateJS and uses the human voice as its primary mechanic. Screaming into the microphone
                     releases bones, which in turn damage your enemies, the tortoises.
+                </p>
+                <p><b>Technologies Used: </b>CreateJS, Express</p>
+            </div>
+        </div>
+        <div class="box photoshop-projects">
+            <div class="left_part">
+                <carousel :per-page="1">
+                    <slide>
+                        <img src="https://i.ibb.co/dr7Bvng/penguin-in-desert.jpg" class="project_image"/>
+                    </slide>
+                    <slide>
+                        <img src="https://i.ibb.co/wz8R0mQ/surreal-2.jpg" class="project_image"/>
+                    </slide>
+                </carousel>
+            </div>
+            <div class="right_part">
+                <h2>Photoshop Projects</h2>
+                <p>
+                    The surreal pictures seen on the side were created for a Graphic Design course encompassing Adobe PhotoShop, Illustrator, and InDesign.
                 </p>
                 <p><b>Technologies Used: </b>CreateJS, Express</p>
             </div>
@@ -157,7 +171,7 @@
         align-items: center;
     }
 
-    @media only screen and (max-width: 1200px) {
+    @media all and (max-width: 1200px) {
         /* For mobile phones: */
         .box {
             flex-direction: column;

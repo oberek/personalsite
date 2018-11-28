@@ -89,7 +89,7 @@
                 <p>
                     The surreal pictures seen on the side were created for a Graphic Design course encompassing Adobe PhotoShop, Illustrator, and InDesign.
                 </p>
-                <p><b>Technologies Used: </b>CreateJS, Express</p>
+                <p><b>Technologies Used: </b>Adobe PhotoShop, Illustrator, InDesign</p>
             </div>
         </div>
 

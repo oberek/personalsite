@@ -91,4 +91,17 @@
         margin-left: 5px;
         margin-right: 5px;
     }
+
+    @media only screen and (max-width: 768px) {
+        /* For mobile phones: */
+        .base{
+            flex-direction: column;
+            margin-top: 10px;
+        }
+        .right_box{
+            max-width: 85%;
+            padding: 20px;
+            text-align: center;
+        }
+    }
 </style>

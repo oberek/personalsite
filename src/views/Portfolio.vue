@@ -1,5 +1,4 @@
 <template>
-
     <div class="base">
         <h1>Project Work</h1>
         <div class="box colorize">
@@ -18,11 +17,20 @@
                 </carousel>
             </div>
             <div class="right_part">
-                "Colorize" by Maciej Smusz, a web development student, won the Faculty Favorite. He developed his
-                project for Capstone: A course where student's prove their ready to tackle the challenges of the tech
-                industry and Enterprise Projects. Maciej's passion for classic movies led him to train a convolutional
-                neural network to automatically add color to old film footage. He says one of the biggest challenges of
-                the project was working with new and experimental technologies with few resources to rely on.
+                <h2>Colorize</h2>
+                <p>
+                    "Colorize" by Maciej Smusz, a web development student, won the Faculty Favorite. He developed his
+                    project for Capstone: A course where student's prove their ready to tackle the challenges of the
+                    tech
+                    industry and Enterprise Projects. Maciej's passion for classic movies led him to train a
+                    convolutional
+                    neural network to automatically add color to old film footage. He says one of the biggest challenges
+                    of
+                    the project was working with new and experimental technologies with few resources to rely on.
+                </p>
+                <p>
+                    <b>Technologies Used: </b>TensorFlow, VueJS, ElectronJS, OpenCV, Scikit, Python
+                </p>
             </div>
         </div>
         <div class="box dogfinder">
@@ -37,9 +45,15 @@
                 </carousel>
             </div>
             <div class="right_part">
-                DogFinder is a Tinder-like application which utilizes AngularJS and consumes the PetFinder API to allow
-                users to "swipe left" or "swipe right" on dogs in their area. The user can specify between young, adult,
-                and senior dogs, as well as the area they want to look in.
+                <h2>DogFinder</h2>
+                <p>
+                    DogFinder is a Tinder-like application which utilizes AngularJS and consumes the PetFinder API to
+                    allow
+                    users to "swipe left" or "swipe right" on dogs in their area. The user can specify between young,
+                    adult,
+                    and senior dogs, as well as the area they want to look in.
+                </p>
+                <p><b>Technologies Used: </b> AngularJS, Express, SCSS</p>
             </div>
         </div>
         <div class="box aaft2">
@@ -54,19 +68,38 @@
                 </carousel>
             </div>
             <div class="right_part">
-                Adolescent Atomic Fighting Tortoises 2 was a game created for the Web Game Development course. The game
-                utilizes CreateJS and uses the human voice as its primary mechanic. Screaming into the microphone
-                releases bones, which in turn damage your enemies, the tortoises.
+                <h2>Adolescent Atomic Fighting Tortoises 2</h2>
+                <p>
+                    Adolescent Atomic Fighting Tortoises 2 was a game created for the Web Game Development course. The
+                    game
+                    utilizes CreateJS and uses the human voice as its primary mechanic. Screaming into the microphone
+                    releases bones, which in turn damage your enemies, the tortoises.
+                </p>
+                <p><b>Technologies Used: </b>CreateJS, Express</p>
             </div>
         </div>
 
     </div>
+    <VueElevator :word="word" :duration="duration" :mainAudio="mainAudio" :endAudio="endAudio"></VueElevator>
+
 </template>
 
 <script>
     export default {
-        name: "portfolio"
+        name: "portfolio",
+        data() {
+            return {
+                // Replace word, duration, mainAudio and endAudio setting as you want.
+                // If default is what you like, just don't use related key-value pair and ignore it.
+                word: "Go to Top",
+                duration: 4000,
+                mainAudio: "http://tholman.com/elevator.js/music/elevator.mp3",
+                endAudio: "http://tholman.com/elevator.js/music/ding.mp3",
+            }
+        }
     }
+
+
 </script>
 
 <style scoped>
@@ -102,6 +135,7 @@
         border-radius: 18px;
         justify-content: center;
         align-content: center;
+        max-width: 450px;
     }
 
     .left_part {
@@ -121,5 +155,32 @@
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    @media only screen and (max-width: 768px) {
+        /* For mobile phones: */
+        .box {
+            flex-direction: column;
+            max-width: 85%;
+            min-width: 200px;
+        }
+
+        .project_image {
+            max-width: 80%;
+
+        }
+
+        .VueCarousel-slide {
+            /*flex-basis: 85%;*/
+        }
+
+        .left_part {
+            max-width: 85%;
+            min-width: 200px;
+        }
+
+        .right_part {
+            text-align: center;
+        }
     }
 </style>

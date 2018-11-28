@@ -34,11 +34,23 @@
         font-family: 'Open Sans Condensed', sans-serif;
         filter: saturate(-30%);
         background: url("https://image.ibb.co/iqkQDK/hiking2.jpg") fixed;
-
+        width: auto;
     }
 
     #app {
         height: 100%;
+    }
+    @media only screen and (max-width: 768px) {
+        /* For mobile phones: */
+        #app{
+            width: 100%;        }
+        .main_nav{
+            padding-left:0;
+        }
+        #small-logo{
+            display: none;
+        }
+
     }
 
     a:any-link {

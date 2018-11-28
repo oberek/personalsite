@@ -53,4 +53,13 @@
     color: white;
     text-shadow: 1px 1px 20px #4d4d4d;
   }
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+   #logo{
+     max-width: 75%;
+   }
+    .whoami{
+      text-align: center;
+    }
+  }
 </style>

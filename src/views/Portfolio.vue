@@ -32,7 +32,7 @@
             <div class="left_part">
                 <carousel :per-page="1">
                     <slide>
-                        <img src="https://image.ibb.co/jjJsSe/Dog_Finder_Splash.png" class="project_image"/>
+                         <img src="https://image.ibb.co/jjJsSe/Dog_Finder_Splash.png" class="project_image"/>
                     </slide>
                     <slide>
                         <img src="https://image.ibb.co/m6780z/Dog_Finder1.png" class="project_image"/>

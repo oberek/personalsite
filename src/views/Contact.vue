@@ -2,6 +2,7 @@
     <div class="base">
         <div class="outer_box">
             <h1>Let's Talk!</h1>
+            <p>Although I'm happily employed right now, I'd love to hear from you about your current technology needs</p>
             <div class="base">
                 <form method="POST" action="https://formspree.io/maciejsmusz@gmail.com" @submit="checkForm">
                     <input type="email" name="email" placeholder="Your email" v-validate="'required|email'" v-model="email">

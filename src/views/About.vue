@@ -15,6 +15,15 @@
                     versatile programmer, adopting the best technology for the purposes for the client. He is always
                     ready to try something new if it means improving performance, scalability, or ease of access.</p>
                 <!--<br/>-->
+                <h3>Skills</h3>
+                <h5>Languages</h5>
+                <p>Java • C# • Python • JavaScript • SQL • Ruby</p>
+                <h5>Front End Frameworks</h5>
+                <p>AngularJS • React • Vue</p>
+                <h5>Back End Frameworks</h5>
+                <p>Spring • MVC • Flask • Express • Sails</p>
+                <h5>Tool Suites</h5>
+                <p>Adobe Creative Cloud • Amazon Web Services (S3, Lambda, SQS, SNS, IAM) • Jetbrains</p>
                 <div class="social_media_box">
                 <a href="https://www.linkedin.com/in/maciejsmusz/"><img src="http://www.republiccapitalaccess.com/wp-content/uploads/2014/07/linkedin-icon.png" class="social_media_picture"/></a>
                     <a href="https://github.com/oberek"><img src="https://png.icons8.com/metro/1600/github.png" class="social_media_picture"/> </a>
@@ -75,7 +84,7 @@
     .filler_box {
         width: 100%;
         height: 100%;
-        background-color: rgba(255, 255, 255, 0.3);
+        background-color: rgba(153, 159, 162, 0.7);
         border-radius: 4px;
         top: 0;
         left: 0;

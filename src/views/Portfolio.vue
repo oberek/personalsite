@@ -17,7 +17,7 @@
                 </carousel>
             </div>
             <div class="right_part">
-                <h2>Colorize</h2>
+                <h1>Colorize</h1>
                 <p>
                     Colorize is a tool enabling a user to automatically colorize black and white films. The tool was
                     trained using convolutional neural networks and Google's Inception ResNet, which enabled it to make
@@ -41,13 +41,13 @@
             </div>
             <div class="right_part">
                 <h2>DogFinder</h2>
-                <p>
+                <h1>
                     DogFinder is a Tinder-like application which utilizes AngularJS and consumes the PetFinder API to
                     allow
                     users to "swipe left" or "swipe right" on dogs in their area. The user can specify between young,
                     adult,
                     and senior dogs, as well as the area they want to look in.
-                </p>
+                </h1>
                 <p><b>Technologies Used: </b> AngularJS, Express, SCSS</p>
             </div>
         </div>
@@ -63,7 +63,7 @@
                 </carousel>
             </div>
             <div class="right_part">
-                <h2>Adolescent Atomic Fighting Tortoises 2</h2>
+                <h1>Adolescent Atomic Fighting Tortoises 2</h1>
                 <p>
                     Adolescent Atomic Fighting Tortoises 2 was a game created for a Web Game Development course. The
                     game
@@ -85,7 +85,7 @@
                 </carousel>
             </div>
             <div class="right_part">
-                <h2>Photoshop Projects</h2>
+                <h1>Photoshop Projects</h1>
                 <p>
                     The surreal pictures seen on the side were created for a Graphic Design course encompassing Adobe PhotoShop, Illustrator, and InDesign.
                 </p>

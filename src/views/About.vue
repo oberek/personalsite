@@ -8,25 +8,26 @@
         <div class="right_box">
             <div class="filler_box"></div>
             <div>
-                <h3>About</h3>
+                <h1>About</h1>
                 <p>Maciej Smusz, graduate of Neumont College of Computer Science, enjoys coding, dancing, and getting
                     out to enjoy all nature has to offer. He is currently a board member of Razem Utah, a non-profit
                     Polish fraternal organization for the state of Utah. In terms of technology, Maciej is a very
                     versatile programmer, adopting the best technology for the purposes for the client. He is always
                     ready to try something new if it means improving performance, scalability, or ease of access.</p>
                 <!--<br/>-->
-                <h3>Skills</h3>
-                <h5>Languages</h5>
+                <h1>Skills</h1>
+                <h3>Languages</h3>
                 <p>Java • C# • Python • JavaScript • SQL • Ruby</p>
-                <h5>Front End Frameworks</h5>
+                <h3>Front End Frameworks</h3>
                 <p>AngularJS • React • Vue</p>
-                <h5>Back End Frameworks</h5>
+                <h3>Back End Frameworks</h3>
                 <p>Spring • MVC • Flask • Express • Sails</p>
-                <h5>Tool Suites</h5>
+                <h3>Tool Suites</h3>
                 <p>Adobe Creative Cloud • Amazon Web Services (S3, Lambda, SQS, SNS, IAM) • Jetbrains</p>
                 <div class="social_media_box">
-                <a href="https://www.linkedin.com/in/maciejsmusz/"><img src="http://www.republiccapitalaccess.com/wp-content/uploads/2014/07/linkedin-icon.png" class="social_media_picture"/></a>
+                    <a href="https://www.linkedin.com/in/maciejsmusz/"><img src="http://www.republiccapitalaccess.com/wp-content/uploads/2014/07/linkedin-icon.png" class="social_media_picture"/></a>
                     <a href="https://github.com/oberek"><img src="https://png.icons8.com/metro/1600/github.png" class="social_media_picture"/> </a>
+                    <a href="https://github.com/oberek"><img src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn3.iconfinder.com%2Fdata%2Ficons%2Fbusiness-vol-2%2F72%2F72-512.png&f=1" class="social_media_picture"/> </a>
                 </div>
             </div>
         </div>
@@ -55,7 +56,7 @@
     }
 
     .maciej_pic {
-        max-height: 400px;
+        max-height: 500px;
         /*background-color: white;*/
         /*padding: 5px 5px 40px 5px;*/
         /*border-radius: 10px;*/

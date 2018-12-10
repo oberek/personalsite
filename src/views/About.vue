@@ -42,7 +42,7 @@
 
 <style scoped>
     .base {
-        margin-top: 100px;
+        margin-top: 10px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -66,6 +66,7 @@
     .left_box {
         padding: 30px;
     }
+
 
     .right_box {
         padding: 30px;

@@ -40,14 +40,14 @@
                 </carousel>
             </div>
             <div class="right_part">
-                <h2>DogFinder</h2>
-                <h1>
+                <h1>DogFinder</h1>
+                <p>
                     DogFinder is a Tinder-like application which utilizes AngularJS and consumes the PetFinder API to
                     allow
                     users to "swipe left" or "swipe right" on dogs in their area. The user can specify between young,
                     adult,
                     and senior dogs, as well as the area they want to look in.
-                </h1>
+                </p>
                 <p><b>Technologies Used: </b> AngularJS, Express, SCSS</p>
             </div>
         </div>

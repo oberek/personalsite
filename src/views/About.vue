@@ -8,21 +8,21 @@
         <div class="right_box">
             <div class="filler_box"></div>
             <div>
-                <h1>About</h1>
+                <h2>About</h2>
                 <p>Maciej Smusz, graduate of Neumont College of Computer Science, enjoys coding, dancing, and getting
                     out to enjoy all nature has to offer. He is currently a board member of Razem Utah, a non-profit
                     Polish fraternal organization for the state of Utah. In terms of technology, Maciej is a very
                     versatile programmer, adopting the best technology for the purposes for the client. He is always
                     ready to try something new if it means improving performance, scalability, or ease of access.</p>
                 <!--<br/>-->
-                <h1>Skills</h1>
-                <h3>Languages</h3>
+                <h2>Skills</h2>
+                <h4>Languages</h4>
                 <p>Java • C# • Python • JavaScript • SQL • Ruby</p>
-                <h3>Front End Frameworks</h3>
+                <h4>Front End Frameworks</h4>
                 <p>AngularJS • React • Vue</p>
-                <h3>Back End Frameworks</h3>
+                <h4>Back End Frameworks</h4>
                 <p>Spring • MVC • Flask • Express • Sails</p>
-                <h3>Tool Suites</h3>
+                <h4>Tool Suites</h4>
                 <p>Adobe Creative Cloud • Amazon Web Services (S3, Lambda, SQS, SNS, IAM) • Jetbrains</p>
                 <div class="social_media_box">
                     <a href="https://www.linkedin.com/in/maciejsmusz/"><img src="http://www.republiccapitalaccess.com/wp-content/uploads/2014/07/linkedin-icon.png" class="social_media_picture"/></a>
@@ -74,7 +74,7 @@
         position: relative;
     }
 
-    h3 {
+    h4 {
         font-size: 24px;
     }
 

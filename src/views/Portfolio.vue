@@ -1,6 +1,6 @@
 <template>
     <div class="base">
-        <h1>Project Work</h1>
+        <h2>Project Work</h2>
         <div class="box colorize">
             <div class="left_part">
                 <!--<img src="https://i.ytimg.com/vi/R-RbmqzRC9c/maxresdefault.jpg" class="project_image">-->
@@ -17,7 +17,7 @@
                 </carousel>
             </div>
             <div class="right_part">
-                <h1>Colorize</h1>
+                <h2>Colorize</h2>
                 <p>
                     Colorize is a tool enabling a user to automatically colorize black and white films. The tool was
                     trained using convolutional neural networks and Google's Inception ResNet, which enabled it to make
@@ -40,7 +40,7 @@
                 </carousel>
             </div>
             <div class="right_part">
-                <h1>DogFinder</h1>
+                <h2>DogFinder</h2>
                 <p>
                     DogFinder is a Tinder-like application which utilizes AngularJS and consumes the PetFinder API to
                     allow
@@ -63,7 +63,7 @@
                 </carousel>
             </div>
             <div class="right_part">
-                <h1>Adolescent Atomic Fighting Tortoises 2</h1>
+                <h2>Adolescent Atomic Fighting Tortoises 2</h2>
                 <p>
                     Adolescent Atomic Fighting Tortoises 2 was a game created for a Web Game Development course. The
                     game
@@ -85,7 +85,7 @@
                 </carousel>
             </div>
             <div class="right_part">
-                <h1>Photoshop Projects</h1>
+                <h2>Photoshop Projects</h2>
                 <p>
                     The surreal pictures seen on the side were created for a Graphic Design course encompassing Adobe PhotoShop, Illustrator, and InDesign.
                 </p>
@@ -94,22 +94,12 @@
         </div>
 
     </div>
-    <VueElevator :word="word" :duration="duration" :mainAudio="mainAudio" :endAudio="endAudio"></VueElevator>
-
 </template>
 
 <script>
     export default {
         name: "portfolio",
         data() {
-            return {
-                // Replace word, duration, mainAudio and endAudio setting as you want.
-                // If default is what you like, just don't use related key-value pair and ignore it.
-                word: "Go to Top",
-                duration: 4000,
-                mainAudio: "http://tholman.com/elevator.js/music/elevator.mp3",
-                endAudio: "http://tholman.com/elevator.js/music/ding.mp3",
-            }
         }
     }
 

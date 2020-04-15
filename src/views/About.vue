@@ -17,17 +17,16 @@
                 <!--<br/>-->
                 <h2>Skills</h2>
                 <h4>Languages</h4>
-                <p>Java • C# • Python • JavaScript • SQL • Ruby</p>
+                <p>Java • Python • JavaScript/TypeScript • SQL • Ruby</p>
                 <h4>Front End Frameworks</h4>
                 <p>AngularJS • React • Vue</p>
                 <h4>Back End Frameworks</h4>
-                <p>Spring • MVC • Flask • Express • Sails</p>
+                <p>Spring • Serverless • Flask • Express • Sails</p>
                 <h4>Tool Suites</h4>
-                <p>Adobe Creative Cloud • Amazon Web Services (S3, Lambda, SQS, SNS, IAM) • Jetbrains</p>
+                <p>Adobe Creative Cloud • Amazon Web Services • Jetbrains</p>
                 <div class="social_media_box">
                     <a href="https://www.linkedin.com/in/maciejsmusz/"><img src="http://www.republiccapitalaccess.com/wp-content/uploads/2014/07/linkedin-icon.png" class="social_media_picture"/></a>
-                    <a href="https://github.com/oberek"><img src="https://png.icons8.com/metro/1600/github.png" class="social_media_picture"/> </a>
-                    <a href="https://github.com/oberek"><img src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn3.iconfinder.com%2Fdata%2Ficons%2Fbusiness-vol-2%2F72%2F72-512.png&f=1" class="social_media_picture"/> </a>
+                    <a href="https://github.com/oberek"><img src="https://image.flaticon.com/icons/png/512/25/25231.png" class="social_media_picture"/> </a>
                 </div>
             </div>
         </div>

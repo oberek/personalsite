@@ -1,9 +1,33 @@
 <template>
     <div class="base">
-        <h2>Project Work</h2>
+        <h2>External Client Work</h2>
+        <div class="box pfdaa">
+            <div class="left_part">
+                <carousel :per-page="1">
+                    <slide>
+                        <img src="https://i.ibb.co/gMvKqCS/Front-Page.png" class="project_image"/>
+                    </slide>
+                    <slide>
+                        <img src="https://i.ibb.co/JmCZd54/Join.png" class="project_image"/>
+                    </slide>
+                    <slide>
+                        <img src="https://i.ibb.co/pdqp3vf/Manufacturers.png" class="project_image"/>
+                    </slide>
+                </carousel>
+            </div>
+            <div class="right_part">
+                <h2>The Polish Folk Dance Association of the Americas</h2>
+                <p>
+                    The Polish Folk Dance Association of the Americas (PFDAA) is a united effort to consolidate the resources of Polish folk dance groups across the United States and Canada and better cultivate and explore Polish culture through the use of shared music, videos, and books, and hosting workshops with certified instructors/ethnologists from Poland. <a href="https://www.pfdaa.org/">www.pfdaa.org</a>
+                </p>
+                <p>
+                    <b>Technologies Used: </b>AWS Amplify, DynamoDB, AppSync, GraphQL, VueJS, Auth0, Bulma
+                </p>
+            </div>
+        </div>
+        <h2>School Project Work</h2>
         <div class="box colorize">
             <div class="left_part">
-                <!--<img src="https://i.ytimg.com/vi/R-RbmqzRC9c/maxresdefault.jpg" class="project_image">-->
                 <carousel :per-page="1">
                     <slide>
                         <img src="https://image.ibb.co/dx9ADK/Colorize_Interface.png" class="project_image"/>
@@ -98,9 +122,7 @@
 
 <script>
     export default {
-        name: "portfolio",
-        data() {
-        }
+        name: "portfolio"
     }
 
 
@@ -119,6 +141,10 @@
         margin-top: 0;
     }
 
+    a {
+        color:rgb(0, 0, 0)
+    }
+    
     .box {
         display: flex;
         min-height: 80px;

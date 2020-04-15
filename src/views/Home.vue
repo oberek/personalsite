@@ -3,9 +3,6 @@
   <div class="base">
     <img src="../assets/secondaryLogo.png" id="logo">
     <div class="whoami">
-      <!--<h3>-->
-      <!--— Maciej Smusz —-->
-      <!--</h3>-->
       <h3>
         Full Stack Web Developer
       </h3>

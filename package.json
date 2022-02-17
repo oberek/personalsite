@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "express": "^4.17.1",
-    "url-parse": "^1.4.7",
+    "url-parse": "^1.5.6",
     "vee-validate": "^2.2.15",
     "vue": "^2.6.11",
     "vue-carousel": "^0.10.0",
